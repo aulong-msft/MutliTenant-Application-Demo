@@ -7,12 +7,8 @@ using System;
 /*
 Mutli-tenant app registration information
 
-redirect uri
-todo
-
-crafted resposne
-https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id= todo&response_type=code&redirect_uri=https%3A%2F%2Ftodo&response_mode=query&scope=https%3A%2F%2Fgraph.microsoft.com%2F.default&state=12345
-
+crafted response: make sure to update the ClientID in the URL
+`https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?response_type=code&response_mode=query&scope=openid&client_id=your_client_ID`
 */
 class Program
 {
