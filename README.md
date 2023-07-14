@@ -1,10 +1,10 @@
-# Mult-tenant Application Demo
+# Multi-tenant Application Demo
 This demo is to showcase how 
 
-## Steps 
+## Process
 
 1. set up multi-tenant app to create a service principal
-	1. http://www.lseg.com as the redirect URI
+	1. include the redirect URI
 1. Set up a client secret
 	1. go to the multi-tenant application and create a client secret
 1. Set up the service principal RBAC for the provider storage account
