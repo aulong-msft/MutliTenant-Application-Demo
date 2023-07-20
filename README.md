@@ -4,15 +4,15 @@ This demo is to showcase how a multi-tenant app registration from Tenant A can p
 For demoing purposes i will also create a storage account in Tenant A to showcase the new credential beind used. This demo is to demonstrate a multi-tenant capability where Tenant A creates and controlls a service principal identity to Tenant B, and places least priviledge RBAC on that identity so Tenant B can access limited technologies in Tenant A.
 
 The Setup Looks like the following:
-1.) set up multi-tenant app to create a service principal
-	a.) Choose a redirect URI
-2.) Set up a client secret
-	a.) go to the multi-tenant application and create a client secret
-3.) Set up the service principal RBAC for the provider storage account
-4.)	Provision the new identity in the customer tenant with crafted login
-5.) assign RBAC to the new identity to talk to a KV in the customer tenant
-6.) Provider sends over the client secret to the customer in a call to the customers keyvault
-7.) the customer then can craft a call to the providers storage account
+1. Set up multi-tenant app to create a service principal
+1. Choose a redirect URI
+1. Set up a client secret
+1. Create a client secret for the multi-tenant application
+1. Set up the service principal RBAC for the provider storage account
+1. Provision the new identity in the customer tenant with crafted login
+1. Assign RBAC to the new identity to talk to a KV in the customer tenant
+1. Provider sends over the client secret to the customer in a call to the customers keyvault
+1. The customer then can craft a call to the providers storage account
 
 
 ## Process
